@@ -5,10 +5,11 @@
 }
 body{
     box-sizing: border-box;
-    font-size: 15px;
+    font-size: 12px;
     background-color: rgb(230, 224, 216);
     color: rgb(31, 30, 30);
     font-family: 'Poppins', sans-serif;
+    font-weight: 300;
 }
 nav{
     background-color: rgb(214, 14, 14);
@@ -22,7 +23,7 @@ nav ul{
 }
 nav ul li{
     display: inline;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 nav a{
     text-decoration: none;
@@ -100,7 +101,7 @@ nav a{
 .food-recipe {
     background: rgb(230, 224, 216);
     display: flex;
-    border-bottom: 4px solid red;
+    border-bottom: 2px solid red;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-bottom: 20px;
@@ -109,23 +110,23 @@ nav a{
     margin: 10px;
 }
 .food-details{
-    padding: 30px;
+    padding: 10px;
 }
 .food-details h3{
-    font-size: 30px;
+    font-size: 14px;
 }
 .food-details a{
     text-decoration: none;
     color: red;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .food-details p {
-    padding: 30px 0;
+    padding: 20px 0;
     line-height: 30px;
 }
 footer{
     background-color: rgb(233, 22, 22);
-    height: 190px;
+    height: 210px;
 }
 h4,
 .love-span{
@@ -177,7 +178,6 @@ nav a:hover{
     /* height: 4rem; */
 }
 .border-red{
-    border-bottom: 3px solid red;
     background-color: white;
 }
 .col h1{
@@ -213,12 +213,13 @@ nav a:hover{
  h2{
     text-align: center;
     padding: 20px;
-    font-size: 35px;
+    font-size: 25px;
 }
 .main-two {
     padding: 20px;
     color: white;
-    margin: 20px;
+    border-top: 3px solid red;
+    /* margin: 20px; */
     background-image: linear-gradient(rgba(0,0,0,0.627),rgba(0, 0, 0, 0.8)),url("images/9.jpg");
     /* background-image: url("images/8.jpg"); */
     background-repeat: no-repeat;
@@ -247,15 +248,10 @@ nav a:hover{
     .row{
         grid-template-columns: repeat(2,1fr);
     }
-    .sm-hide{
-        display: none;
-    }
 }
 @media (min-width:900px){
     .row{
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
     }
-    .sm-hide{
-        display: block;
-    }
+    
 }
