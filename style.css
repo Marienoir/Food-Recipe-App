@@ -102,28 +102,32 @@ nav a{
     background: rgb(230, 224, 216);
     display: flex;
     border-bottom: 2px solid red;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    /* border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
     margin-bottom: 20px;
 }
 .food-img{
     margin: 10px;
 }
+.food-img img{
+    width: 100px;
+    height: 100px;
+}
 .food-details{
     padding: 10px;
 }
-.food-details h3{
+/* .food-details h3{
     font-size: 14px;
-}
+} */
 .food-details a{
     text-decoration: none;
     color: red;
     margin-top: 20px;
 }
-.food-details p {
+/* .food-details p {
     padding: 20px 0;
     line-height: 30px;
-}
+} */
 footer{
     background-color: rgb(233, 22, 22);
     height: 210px;
@@ -133,7 +137,7 @@ h4,
     text-align: center;
     font-size: 15px;
     padding-top: 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 254, 254);
 }
 .social-media{
     display: flex;
@@ -157,7 +161,7 @@ nav a:hover{
     color: rgb(240, 155, 155);
 }
 .love-span span{
-    color: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
 }
 /* main{
     background-color: rgb(247, 242, 242);
@@ -190,10 +194,14 @@ nav a:hover{
 .col img{
     height: 200px;
     width: 250px;
+    border: 2px solid gray;
+    border-radius: 7px;
+    
+ 
 }
 .lg-image img{
     height: 300px;
-    width: 420px;
+    width: 350px;
 }
 /* .border-red{
     border:1px solid gray;
@@ -217,10 +225,10 @@ nav a:hover{
 }
 .main-two {
     padding: 20px;
-    color: white;
+    color: black;
     border-top: 3px solid red;
     /* margin: 20px; */
-    background-image: linear-gradient(rgba(0,0,0,0.627),rgba(0, 0, 0, 0.8)),url("images/9.jpg");
+    /* background-image: linear-gradient(rgba(0,0,0,0.627),rgba(0, 0, 0, 0.8)),url("images/9.jpg"); */
     /* background-image: url("images/8.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -239,10 +247,10 @@ nav a:hover{
         display: block;
 }
 .main-two span a{
-    color: rgb(243, 181, 181);
+    color: rgb(209, 43, 43);
 }
 .blog-section p{
-    color: white;
+    color: black;
 }
 @media (min-width:600px){
     .row{
